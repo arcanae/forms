@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h2>Sign In</h2>
+    <ul>
+        <form method="get" action="traitement.php">
+            <li>
+                <label for="last">Last Name :</label>
+                <input type="text" name="last" id="last" size="15" placeholder="Ex: Du Moulin"/>
+            </li>
+            <li>
+                <label for="first">First Name :</label>
+                <input type="text" name="first" id="first" size="15" placeholder="Ex: Pierre"/>
+            </li>
+            <li>
+                <label for="pseudo">Nickname :</label>
+                <input type="text" name="pseudo" id="pseudo" size="15" placeholder="Ex: Pierre69"/>
+            </li>
+            <li>
+                <label for="pass">Password : </label>
+                <input type="password" name="pass" id="pass" size="15"/>
+            </li>
+            <li>
+                <label for="age">Age : </label>
+                <input type="number" name="age" id="age" size="3" placeholder="Ex: 21"/>
+            </li>
+            <li>
+                <label for="country">Country : </label>
+                <select name="country" id="country">
+                    <option value="France">France</option>
+                    <option value="England">England</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Spain">Spain</option>
+                </select>
+            </li>
+            <li>
+                <label for="mail">E-mail@ :</label>
+                <input type="email" name="mail" id="mail" size="15" placeholder="Ex: pierre.dumoulin@gmail.com"/>
+            </li>
+            <li>
+                <label for="gender">Gender : </label>
+                <input type="radio" name="gender" value="homme" />
+                <label for="homme">Male</label>
+                <input type="radio" name="gender" value="femme" />
+                <label for="femme">Female</label>
+                <input type="radio" name="gender" value="autre" />
+                <label for="autre">Other</label>
+            </li>
+        </ul>
+                <input type="submit" value="Envoyer" id="bt" />
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+body {
+    background: url(../stripe.jpg);
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+label {
+    display: inline-block;
+    width: 6.25em;
+}
+
+ input, select {
+    margin-bottom: 1em;
+}
+
+#age {
+    width: 4em;
+}
+
+#mail {
+    width: 14em;
+}
+
+#bt {
+    margin-left: 3em;
+}
